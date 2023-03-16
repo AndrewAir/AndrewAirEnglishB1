@@ -16,7 +16,7 @@ I will master Englisth till:
 9. Then make 3 sentence with those word's 
 10. ‼ Repeat them 10 times a day. In the morning before  the bad and on every break.
 
-![Making Sentencies](.\res\ChatGPTSetanceBuilder.png)
+![Making Sentencies](./res/ChatGPTSetanceBuilder.png)
 
 
 ## Problem 
