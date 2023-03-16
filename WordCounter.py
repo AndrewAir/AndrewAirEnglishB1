@@ -43,5 +43,19 @@ def main():
     with open(args.input_file, 'r') as file:
         text = file.read()
 
-    local_word_count = count_words(text
+    local_word_count = count_words(text)
+    write_csv(args.output_file, local_word_count, text)
+
+    global_word_count = {}
+    if os.path.exists('GlobalWordsCount.csv'):
+        with open('GlobalWordsCount.csv', 'r', newline='') as csvfile:
+            reader = csv.DictReader(csvfile)
+            for row in reader:
+                global_word_count[row['word']] = int(row['total'])
+
+    update_global_word_count(global_word_count, local_word_count)
+    write_global_csv(global_word_count, args.word_count)
+
+if __name__ == '__main__':
+    main()
 
