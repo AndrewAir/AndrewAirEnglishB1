@@ -1,0 +1,11 @@
+advanced 
+industry 
+after 
+opportunity
+offer 
+bottom-line
+job-relate
+practical
+strength
+personality
+team-player
