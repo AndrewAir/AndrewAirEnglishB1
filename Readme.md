@@ -23,6 +23,6 @@ I will master Englisth till:
 
 ## Chat GPT Example
 
-![Chat GPT example](.\res\ChatGPT.png)
+![Chat GPT example](./res/ChatGPT.png)
 
 What I need
